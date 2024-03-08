@@ -114,7 +114,7 @@
 }
 
 html {
-    background-color: #5F6F52;
+    background-color: #0b403d;
 }
 
 .whole-page {
@@ -124,8 +124,8 @@ html {
     margin-top: 20px;
     margin-bottom: 20px;
     height: 94%;
-    background-color: #A9B388;
-    border: 5px solid #FEFAE0;
+    background-color: rgb(15, 85, 81);
+    border: 0px solid #416edf;
     border-radius: 20px;
     padding-top: 50px;
     padding-left: 30px;
@@ -135,9 +135,9 @@ html {
 }
 .header{
     margin: 0px 30px 20px 30px;
-    background-color: #B99470;
+    background-color: rgb(208, 194, 180);
     padding: 40px;
-    border: 3px solid #FEFAE0;
+    border: 0px solid #416edf;
     border-radius: 20px;
 }
 #image-holder {
@@ -155,47 +155,48 @@ html {
 }
 #summary {
     font-family: "Poppins", sans-serif;
-    color: #FEFAE0;
-    background-color: #B99470;
+    color: #161117;
+    background-color: rgb(208, 194, 180);
     padding-left: 300px;
 }
 h1 {
     text-align: center;
-    color: #446127;
+    color: #3d4143;
     font-size: xxx-large;
     font-family: "Josefin Sans", sans-serif;
 }
 .shortened {
     width: 50%;
-    border-top: 3px dashed rgba(249, 222, 192, 0.8);
+    border: 1px solid #e5a62d;
 }
 #role {
     font-family: "Josefin Sans", sans-serif;
     font-weight: normal;
+    color: #173f3d;
 }
 h2 {
     text-transform: uppercase;
-    color: #446127;
+    color: #eca400;
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
 }
 .main-content {
     padding: 50px;
     font-family: "Poppins", sans-serif;
-    color: #FEFAE0;
+    color: #f3f0f4;
 }
 
 a {
-    color: #446127;
+    color: rgb(236, 228, 216);
 }
 
 h3 {
     font-family: "Poppins", sans-serif;
-    color: #ece4d8;
+    color: rgba(246, 222, 175, 0.75);
 }
 h4 {
     font-family: "Poppins", sans-serif;
-    color: #446127;
+    color: rgba(246, 222, 175, 0.75);
 }
 h5 {
     color: #ece4d8;
@@ -216,5 +217,17 @@ footer {
 p {
     text-align: center;
     font-family: "Poppins", sans-serif;
+    color: #ece4d8;
+}
+#top-rule {
+    width: 50%;
+    border: 3px solid #173f3d;
+}
+.mid {
+    width: 50%;
+    border: 1px solid #5d6161;
+}
+
+.courses {
     color: #ece4d8;
 }
