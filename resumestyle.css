@@ -1,0 +1,220 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.josefin-sans-medium {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    background-color: #5F6F52;
+}
+
+.whole-page {
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 94%;
+    background-color: #A9B388;
+    border: 5px solid #FEFAE0;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+
+}
+.header{
+    margin: 0px 30px 20px 30px;
+    background-color: #B99470;
+    padding: 40px;
+    border: 3px solid #FEFAE0;
+    border-radius: 20px;
+}
+#image-holder {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+#profile-pic {
+    height: 100%;
+    border: 0px solid white;
+    border-radius: 20px;
+}
+#summary {
+    font-family: "Poppins", sans-serif;
+    color: #FEFAE0;
+    background-color: #B99470;
+    padding-left: 300px;
+}
+h1 {
+    text-align: center;
+    color: #446127;
+    font-size: xxx-large;
+    font-family: "Josefin Sans", sans-serif;
+}
+.shortened {
+    width: 50%;
+    border-top: 3px dashed rgba(249, 222, 192, 0.8);
+}
+#role {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+}
+h2 {
+    text-transform: uppercase;
+    color: #446127;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.main-content {
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+    color: #FEFAE0;
+}
+
+a {
+    color: #446127;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    color: #ece4d8;
+}
+h4 {
+    font-family: "Poppins", sans-serif;
+    color: #446127;
+}
+h5 {
+    color: #ece4d8;
+    font-style: italic;
+}
+h6 {
+    font-style: italic;
+    font-size: small;
+    text-transform: uppercase;
+    color: #ece4d8;
+}
+footer {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+    font-size: small;
+    color: #ece4d8;
+}
+p {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #ece4d8;
+}
