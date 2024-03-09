@@ -1,0 +1,204 @@
+.chivo-mono-regular {
+    font-family: "Chivo Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.afacad-regular {
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    background-color: #e9c47a;
+
+}
+
+/*this is where the logo and the menu toolbar will be located*/
+.top-menu-header-bar {
+    z-index: 100;
+    background-color: #876445;
+    width: 100%;
+    height: 65px;
+    margin: 0px;
+    position: fixed;
+}
+
+.logo {
+    z-index: 100;
+    background-color: #CA965C;
+    float: left;
+    margin-left: 6%;
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.logo-img {
+    z-index: 100;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top-menu-content {
+    z-index: 100;
+    position: fixed;
+margin-left: 25%;
+    width: 70%;
+    padding-top:20px;
+}
+
+.top-menu-button {
+    z-index: 100;
+    background-color: #CA965C;
+    color: #F4DFBA;
+    border-radius: 10%;
+    height: 35px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-family: "Chivo Mono", monospace;
+    text-transform: lowercase;
+    font-weight: 650;
+    font-size: x-large;
+}
+
+.top-menu-content a:hover {
+    background-color: #EEC373;
+    color: #876445;
+
+}
+
+.top-menu-content a.active {
+    background-color: #EEC373;
+    color: #876445;
+}
+.footer {
+    background-color: #876445;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    color: #F4DFBA;
+    font-family: "Afacad", sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.header {
+    height: 250px;
+    position: relative;
+    top: 100px;
+    margin: 0px 50px;
+    text-align: center;
+    background-color: #f4dfba;
+    border-radius: 30px;
+}
+.whole-page {
+    position: relative;
+    top: 0px;
+    margin: 0px 50px;
+    background-color: #f4dfba;
+    border-radius: 30px;
+}
+.main-content {
+    position: relative;
+    top: 10px;
+    font-family: "Afacad", sans-serif;
+}
+.large-links {
+    text-align: center;
+    font-size: x-large;
+    font-family: "Afacad", sans-serif;
+    font-weight: 600;
+}
+.bottom-links {
+    margin-bottom: 100px;
+}
+
+#summary-list {
+    font-family: "Afacad", sans-serif;
+    color: #836648;
+    padding-left: 50px;
+}
+h1 {
+    text-align: center;
+    color: #836648;
+    font-size: xxx-large;
+    font-family: "Afacad", sans-serif;
+}
+.shortened {
+    width: 50%;
+    border: 1px solid #c49762;
+}
+#role {
+    font-family: "Afacad", sans-serif;
+    font-weight: normal;
+    color: #173f3d;
+}
+h2 {
+    text-transform: uppercase;
+    color: #eca400;
+    text-align: center;
+    font-family: "Afacad", sans-serif;
+}
+.main-content {
+    padding: 20px 50px;
+    font-family: "Poppins", sans-serif;
+    color: #876445;
+}
+
+
+h3 {
+    font-family: "Afacad", sans-serif;
+    color: rgb(202, 150, 92);
+}
+h4 {
+    font-family: "Afacad", sans-serif;
+    color: rgb(135, 100, 69);
+}
+h5 {
+    font-family: "Afacad", sans-serif;
+    color: #876445;
+    font-style: italic;
+}
+h6 {
+    font-family: "Afacad", sans-serif;
+    font-style: italic;
+    font-size: small;
+    text-transform: uppercase;
+    color: #ca965c;
+}
+.top-rule {
+    border: 2px solid #836648;
+}
+.mid {
+    width: 50%;
+    border: 2px solid #f2b835;
+}
+
+.courses {
+    color: #876445;
+}
+a {
+    color: rgb(131, 102, 72);
+}
+li {
+    font-family: "Afacad", sans-serif;
+}
+.linkedin {
+    font-size: xx-large;
+    text-align: center;
+}
