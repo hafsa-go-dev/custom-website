@@ -57,7 +57,7 @@ html {
     position: fixed;
     left: 280px;
     right: 20px;
-    margin-left: 10px;
+    margin-left: 30px;
     padding-top:0px;
 }
 
@@ -70,7 +70,6 @@ html {
     height: 35px;
     margin-top: 15px;
     flex: 1;
-
     text-align: center;
     padding-top: 10px;
     padding-left: 10px;
