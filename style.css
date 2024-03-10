@@ -192,6 +192,11 @@ h6 {
     border: 2px solid #f2b835;
 }
 
+.shortened {
+    width: 50%;
+    border: 1px solid #ca965c;
+}
+
 /* styling for top caption bar */
 .top-rule {
     width: 50%;
@@ -204,4 +209,35 @@ a {
 
 li {
     font-family: "Afacad", sans-serif;
+}
+
+.header-title {
+    font-family: "Afacad", sans-serif;
+    color: #CA965C;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.header-detail {
+    font-family: "Afacad", sans-serif;
+    color: #876445;
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.header-text {
+    font-family: "Afacad", sans-serif;
+    color: #876445;
+    font-size: large;
+    font-weight: 800;
+}
+
+.dates {
+    font-family: "Afacad", sans-serif;
+    color: #876445;
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
 }
