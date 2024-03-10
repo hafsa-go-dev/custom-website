@@ -17,7 +17,7 @@ html {
 
 }
 
-/*this is where the logo and the menu toolbar will be located*/
+/* this is where the logo and the menu toolbar will be located*/
 .top-menu-header-bar {
     z-index: 100;
     background-color: #876445;
@@ -29,6 +29,7 @@ html {
     position: fixed;
 }
 
+/* this is the container for the logo*/
 .logo {
     z-index: 100;
     background-color: #CA965C;
@@ -40,22 +41,25 @@ html {
     border-radius: 50%;
 }
 
+/* logo image*/
 .logo-img {
     z-index: 100;
     height: 100%;
     border-radius: 50%;
 }
 
+/* div for the menu links, must be offset to make room for logo*/
 .top-menu-content {
     display: flex;
     gap: 10px;
     z-index: 100;
     position: fixed;
-margin-left: 25%;
+    margin-left: 25%;
     width: 70%;
     padding-top:0px;
 }
 
+/* a class of a describing buttons for top menu*/
 .button {
     z-index: 100;
     background-color: #CA965C;
@@ -77,16 +81,19 @@ margin-left: 25%;
     font-size: x-large;
 }
 
+/* button hover color*/
 .button:hover {
     background-color: #EEC373;
     color: #876445;
 
 }
 
+/* take the underline off menu button links */
 a.button {
     text-decoration: none;
 }
 
+/* active page is highlighted in top menu buttons */
 .active {
     background-color: #EEC373;
     color: #876445;
@@ -110,30 +117,31 @@ a.button {
     margin-left: 0;
     margin-right: 0;
 }
+
+
 .whole-page {
     position: relative;
     top: 100px;
-    margin: 0px 50px 100px 50px;
+    margin: 0px 50px 150px 50px;
     background-color: #f4dfba;
     border-radius: 30px;
     padding: 20px 50px;
 }
 
+/* links to main site parts at the bottom of the main content (inside the whole page) */
+.bottom-links {
+    margin-bottom: 50px;
+}
+
+/* styling for the bottom links */
 .large-links {
     text-align: center;
     font-size: x-large;
     font-family: "Afacad", sans-serif;
     font-weight: 600;
 }
-.bottom-links {
-    margin-bottom: 50px;
-}
 
-#summary-list {
-    font-family: "Afacad", sans-serif;
-    color: #836648;
-    padding-left: 50px;
-}
+/* main title (Hafsa R.)*/
 h1 {
     text-align: center;
     color: #836648;
@@ -141,15 +149,7 @@ h1 {
     font-family: "Afacad", sans-serif;
     margin-bottom: 5px;
 }
-.shortened {
-    width: 50%;
-    border: 1px solid #c49762;
-}
-#role {
-    font-family: "Afacad", sans-serif;
-    font-weight: normal;
-    color: #173f3d;
-}
+
 h2 {
     text-transform: uppercase;
     color: #eca400;
@@ -161,15 +161,18 @@ h3 {
     font-family: "Afacad", sans-serif;
     color: rgb(202, 150, 92);
 }
+
 h4 {
     font-family: "Afacad", sans-serif;
     color: rgb(135, 100, 69);
 }
+
 h5 {
     font-family: "Afacad", sans-serif;
     color: #876445;
     font-style: italic;
 }
+
 h6 {
     font-family: "Afacad", sans-serif;
     font-style: italic;
@@ -177,24 +180,28 @@ h6 {
     text-transform: uppercase;
     color: #ca965c;
 }
+
+/* hr styling */
 .long-rule {
     border: 2px solid #836648;
 }
+
+/* hr styling */
 .mid {
     width: 50%;
     border: 2px solid #f2b835;
 }
 
-.courses {
-    color: #876445;
+/* styling for top caption bar */
+.top-rule {
+    width: 50%;
+    border: 2px solid #e15827;
 }
+
 a {
-    color: rgb(131, 102, 72);
+    color: #836648;
 }
+
 li {
     font-family: "Afacad", sans-serif;
-}
-.linkedin {
-    font-size: xx-large;
-    text-align: center;
 }

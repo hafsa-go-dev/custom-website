@@ -111,7 +111,7 @@ a.button {
 .whole-page {
     position: relative;
     top: 100px;
-    margin: 0px 50px 100px 50px;
+    margin: 0px 50px 150px 50px;
     background-color: #f4dfba;
     border-radius: 30px;
     padding: 20px 50px;
@@ -181,6 +181,12 @@ h6 {
 .mid {
     width: 50%;
     border: 2px solid #f2b835;
+}
+
+/* styling for top caption bar */
+.top-rule {
+    width: 50%;
+    border: 2px solid #e15827;
 }
 
 .courses {
