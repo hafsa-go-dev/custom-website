@@ -38,6 +38,7 @@ html {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    display: inline-block;
 }
 
 .logo-img {
@@ -47,12 +48,13 @@ html {
 }
 
 .top-menu-content {
-    display: flex;
+    display: inline-flex;
     gap: 10px;
     z-index: 100;
     position: fixed;
-margin-left: 25%;
-    width: 70%;
+    left: 280px;
+    right: 20px;
+margin-left: 10px;
     padding-top:0px;
 }
 
@@ -62,10 +64,8 @@ margin-left: 25%;
     color: #F4DFBA;
     border-radius: 10%;
     height: 35px;
-    width: 150px;
     margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    flex: 1;
     text-align: center;
     padding-top: 10px;
     padding-left: 10px;
@@ -114,7 +114,7 @@ a.button {
     margin: 0px 50px 150px 50px;
     background-color: #f4dfba;
     border-radius: 30px;
-    padding: 20px 50px;
+    padding: 20px 0px;
 }
 
 .large-links {
@@ -204,7 +204,7 @@ li {
 }
 .container {
     display: inline-block;
-    margin: 50px 420px 600px 70px;
+    margin: 50px 400px 600px 30px;
     position: relative
 }
 .flower-containers {
@@ -248,17 +248,17 @@ li {
 .summary-containers{
     background-color: whitesmoke;
     height: 350px;
-    width: 350px;
+    width: 300px;
     border-radius: 20px;
     position: absolute;
     top: 100px;
     z-index: 4;
-    padding: 10px 20px 120px 20px;
+    padding: 5px 20px 130px 20px;
 }
 
 .highlights {
     font-family: "Afacad", sans-serif;
     font-weight: lighter;
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: 2.25rem;
+    text-align: right;
 }
