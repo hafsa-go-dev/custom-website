@@ -47,6 +47,8 @@ html {
 }
 
 .top-menu-content {
+    display: flex;
+    gap: 10px;
     z-index: 100;
     position: fixed;
 margin-left: 25%;
@@ -54,7 +56,7 @@ margin-left: 25%;
     padding-top:20px;
 }
 
-.top-menu-button {
+.button {
     z-index: 100;
     background-color: #CA965C;
     color: #F4DFBA;
@@ -75,16 +77,19 @@ margin-left: 25%;
     font-size: x-large;
 }
 
-.top-menu-content a:hover {
+.button:hover {
     background-color: #EEC373;
     color: #876445;
 
 }
-
-.top-menu-content a.active {
+.button>a {
+    text-decoration: none;
+}
+.active {
     background-color: #EEC373;
     color: #876445;
 }
+
 .footer {
     background-color: #876445;
     width: 100%;
@@ -192,14 +197,14 @@ li {
 }
 .container {
     display: inline-block;
-    margin: 50px 450px 600px 70px;
+    margin: 50px 420px 600px 70px;
     position: relative
 }
 .flower-containers {
     position: relative;
     top: 10px;
     left: 10px;
-    margin-bottom: 1260px;
+    margin-bottom: 100px;
 
 }
 .petal-left {
