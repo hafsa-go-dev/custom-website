@@ -82,9 +82,11 @@ margin-left: 25%;
     color: #876445;
 
 }
-.button>a {
+
+a.button {
     text-decoration: none;
 }
+
 .active {
     background-color: #EEC373;
     color: #876445;
@@ -114,7 +116,7 @@ margin-left: 25%;
     margin: 0px 50px 100px 50px;
     background-color: #f4dfba;
     border-radius: 30px;
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .large-links {
@@ -137,6 +139,7 @@ h1 {
     color: #836648;
     font-size: 4rem;
     font-family: "Afacad", sans-serif;
+    margin-bottom: 5px;
 }
 .shortened {
     width: 50%;
@@ -193,65 +196,5 @@ li {
 }
 .linkedin {
     font-size: xx-large;
-    text-align: center;
-}
-.container {
-    display: inline-block;
-    margin: 50px 420px 600px 70px;
-    position: relative
-}
-.flower-containers {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    margin-bottom: 100px;
-
-}
-.petal-left {
-    z-index: 1;
-    position: absolute;
-    top: 50px;
-    left: 80px;
-    height: 80px;
-    width: 150px;
-    background-color: #ec5c28;
-    border-radius: 50%;
-}
-
-.petal-middle {
-    z-index: 2;
-    position: absolute;
-    top: 30px;
-    left: 130px;
-    height: 90px;
-    width: 120px;
-    background-color: #da4f1d;
-    border-radius: 50%;
-}
-.petal-right {
-    z-index: 3;
-    position: absolute;
-    top: 60px;
-    left: 170px;
-    height: 80px;
-    width: 150px;
-    background-color: #ec5c28;
-    border-radius: 50%;
-}
-.summary-containers{
-    background-color: whitesmoke;
-    height: 350px;
-    width: 350px;
-    border-radius: 20px;
-    position: absolute;
-    top: 100px;
-    z-index: 4;
-    padding: 10px 20px 120px 20px;
-}
-
-.highlights {
-    font-family: "Afacad", sans-serif;
-    font-weight: lighter;
-    font-size: 2.5rem;
     text-align: center;
 }

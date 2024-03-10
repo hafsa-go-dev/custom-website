@@ -24,7 +24,7 @@ html {
     top:0px;
     left:0px;
     width: 100%;
-    height: 65px;
+    height: 80px;
     margin: 0px;
     position: fixed;
 }
@@ -47,14 +47,16 @@ html {
 }
 
 .top-menu-content {
+    display: flex;
+    gap: 10px;
     z-index: 100;
     position: fixed;
 margin-left: 25%;
     width: 70%;
-    padding-top:20px;
+    padding-top:0px;
 }
 
-.top-menu-button {
+.button {
     z-index: 100;
     background-color: #CA965C;
     color: #F4DFBA;
@@ -65,31 +67,34 @@ margin-left: 25%;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-family: "Chivo Mono", monospace;
     text-transform: lowercase;
     font-weight: 650;
     font-size: x-large;
 }
 
-.top-menu-content a:hover {
+.button:hover {
     background-color: #EEC373;
     color: #876445;
 
 }
-
-.top-menu-content a.active {
+a.button {
+    text-decoration: none;
+}
+.active {
     background-color: #EEC373;
     color: #876445;
 }
+
 .footer {
     background-color: #876445;
     width: 100%;
     height: 30px;
-    position: fixed;
+    position: relative;
     z-index: 10;
     bottom: 0;
     left: 0;
@@ -98,7 +103,10 @@ margin-left: 25%;
     font-size: medium;
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 .whole-page {
     position: relative;
@@ -106,7 +114,7 @@ margin-left: 25%;
     margin: 0px 50px 100px 50px;
     background-color: #f4dfba;
     border-radius: 30px;
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .large-links {
@@ -129,6 +137,7 @@ h1 {
     color: #836648;
     font-size: 4rem;
     font-family: "Afacad", sans-serif;
+    margin-bottom: 5px;
 }
 .shortened {
     width: 50%;
@@ -187,13 +196,16 @@ li {
     font-size: xx-large;
     text-align: center;
 }
-
+.container {
+    display: inline-block;
+    margin: 50px 420px 600px 70px;
+    position: relative
+}
 .flower-containers {
     position: relative;
-
     top: 10px;
     left: 10px;
-    margin-bottom: 1260px;
+    margin-bottom: 100px;
 
 }
 .petal-left {
@@ -227,15 +239,15 @@ li {
     background-color: #ec5c28;
     border-radius: 50%;
 }
-.summary-containers#first{
+.summary-containers{
     background-color: whitesmoke;
-    height: 320px;
-    width: 320px;
+    height: 350px;
+    width: 350px;
     border-radius: 20px;
     position: absolute;
     top: 100px;
     z-index: 4;
-    padding: 30px;
+    padding: 10px 20px 120px 20px;
 }
 
 .highlights {
@@ -243,103 +255,4 @@ li {
     font-weight: lighter;
     font-size: 2.5rem;
     text-align: center;
-}
-.container#one {
-    position: absolute;
-    height: 450px;
-    width: 450px;
-    top: 80px;
-}
-.container#two {
-    position: absolute;
-    height: 450px;
-    width: 450px;
-    left:550px;
-}
-
-.container#three {
-    position: absolute;
-    height: 450px;
-    width: 450px;
-    top: 60px;
-    left: 1100px;
-}
-
-.container#four {
-    position: absolute;
-    height: 450px;
-    width: 450px;
-    top: 660px;
-    left: 20px;
-}
-
-.container#five {
-    position: absolute;
-    height: 500px;
-    width: 500px;
-    top: 600px;
-    left: 520px;
-}
-
-.container#six {
-    position: absolute;
-    height: 500px;
-    width: 500px;
-    top: 660px;
-    left: 1070px;
-}
-
-.summary-containers#second{
-    background-color: whitesmoke;
-    height: 330px;
-    width: 330px;
-    border-radius: 20px;
-    position: absolute;
-    top: 100px;
-    z-index: 4;
-    padding: 0px 30px 60px 30px;
-}
-
-.summary-containers#third{
-    background-color: whitesmoke;
-    height: 350px;
-    width: 350px;
-    border-radius: 20px;
-    position: absolute;
-    top: 100px;
-    z-index: 4;
-    padding: 0px 30px 80px 30px;
-}
-
-.summary-containers#fourth{
-    background-color: whitesmoke;
-    height: 350px;
-    width: 350px;
-    border-radius: 20px;
-    position: absolute;
-    top: 100px;
-    z-index: 4;
-    padding: 20px;
-}
-
-.summary-containers#fifth{
-    background-color: whitesmoke;
-    height: 400px;
-    width: 400px;
-    border-radius: 20px;
-    position: absolute;
-    top: 100px;
-    z-index: 4;
-    padding: 0px 20px 60px 20px;
-}
-
-.summary-containers#sixth{
-    background-color: whitesmoke;
-    height: 330px;
-    width: 330px;
-    border-radius: 20px;
-    position: absolute;
-    top: 100px;
-    z-index: 4;
-    padding: 20px;
 }
