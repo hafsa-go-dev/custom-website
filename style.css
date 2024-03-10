@@ -140,6 +140,9 @@ a.button {
     font-family: "Afacad", sans-serif;
     font-weight: 600;
 }
+.bottom-links {
+    margin-bottom: 50px;
+}
 
 /* main title (Hafsa R.)*/
 h1 {
