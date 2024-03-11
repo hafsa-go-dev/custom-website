@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    .painting {
+      display: grid;
+      width: 748px;
+      height: 748px;
+      gap: 0px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+    }
+    .one {
+      background-color: #E72F24;
+      border-right: 9px solid black;
+      border-bottom: 9px solid black;
+    }
+
+    .two {
+      background-color: #F0F1EC;
+      grid-column: span 3;
+      border-bottom: 9px solid black;
+    }
+
+    .three {
+      background-color: #F0F1EC;
+      border-right: 9px solid black;
+      border-bottom: 9px solid black;
+      grid-row: span 2;
+    }
+
+    .four {
+      background-color: #F0F1EC;
+      border-right: 9px solid black;
+      border-bottom: 9px solid black;
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+
+    .five {
+      background-color: #004592;
+      border-bottom: 19px solid black;
+    }
+
+    .six {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .seven {
+      background-color: #F0F1EC;
+      border-right: 9px solid black;
+    }
+
+    .eight {
+      background-color: #F9D01E;
+      border-right: 9px solid black;
+    }
+
+    .nine {
+      background-color: #232629;
+      border-right: 9px solid black;
+    }
+  </style>
+</head>
+
+<body>
+<div class="painting">
+  <div class="area one"></div>
+  <div class="area two"></div>
+  <div class="area three"></div>
+  <div class="area four"></div>
+  <div class="area five"></div>
+  <div class="area six"></div>
+  <div class="area seven"></div>
+  <div class="area eight"></div>
+  <div class="area nine"></div>
+</div>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
