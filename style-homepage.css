@@ -134,6 +134,9 @@ a.button {
     font-weight: 600;
 }
 .bottom-links {
+    display:flex;
+    justify-content: center;
+    align-items: end;
     margin-bottom: 50px;
 }
 
@@ -212,7 +215,7 @@ a {
 .two {
     grid-row: span 2;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.9rem;
     padding: 0rem 2rem;
 }
 
@@ -240,9 +243,11 @@ a {
     grid-column: span 2;
     text-align: left;
     padding: 2rem 2rem;
-    font-size: 1.75rem;
+    font-size: 1.9rem;
 }
 .center {
     height: 100%;
+    width: 100%;
+    object-fit: contain;
     border-radius: 20px;
 }
