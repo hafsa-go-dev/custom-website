@@ -186,7 +186,7 @@ a {
     font-family: "Afacad", sans-serif;
     font-weight: lighter;
 }
-@media (min-width: 769px) {
+@media (min-width: 901px) {
     .grid-container {
         margin: 3rem 3rem 12rem 3rem;
         display: grid;
@@ -253,7 +253,7 @@ a {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .grid-container {
         margin: 3rem 3rem 70rem 3rem;
         display: flex;
